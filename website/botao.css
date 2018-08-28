@@ -1,0 +1,37 @@
+.inserir {
+    position: relative;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin-left: 5px;
+    background: #5382bc;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+
+}
+.inserir:hover{
+    background: #5692cf;
+    cursor:pointer;
+}
+.inserir a {
+    text-decoration: none;
+
+}
+.limpar {
+    position: static;
+    padding: 9px 9px 9px 9px;
+    color: #FFF;
+    background: #5382bc;
+    font-size: 20px;
+    margin-top: -160px;
+    text-align: center;
+    width: 20%;
+    float: right;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+
+}
+

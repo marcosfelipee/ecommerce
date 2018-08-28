@@ -1,0 +1,26 @@
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.form input {
+    font-family: 'Ubuntu', sans-serif;
+    background: #bbbbbb;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+input#enviar {
+    font-family: 'Ubuntu', sans-serif;
+    background: #5382bc;
+    color: #FFF;
+    font-size: 20px;
+    cursor: pointer;
+}
+body {
+    background-color: #f3f3f3;
+    font-family: 'Ubuntu', sans-serif;
+}

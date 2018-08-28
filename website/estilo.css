@@ -1,0 +1,301 @@
+body {
+    background-color: #f7f7f7;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    color: #fff
+}
+
+.center {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#menu ul {
+    padding-top: 25px;
+    padding-bottom: 8px;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#menu ul li {
+    display: inline;
+    padding-right: 50px;
+    color: #fff;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.centro {
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.left {
+    width: 60px;
+    margin-top: -80px;
+    padding-bottom: 20px;
+}
+
+.right-topo {
+    margin-bottom: 100px;
+    float: right;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+div.right {
+    width: auto;
+    height: auto;
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 30px;
+    border: 1px solid #e8e8e8;
+    margin-right: 80px;
+}
+
+.right a {
+    text-decoration: none;
+}
+
+.right-topo a:hover {
+    opacity: 0.7;
+}
+
+.bords {
+    padding: 7px;
+    margin: 40px 10px -30px 10px;
+
+}
+
+.preco {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.nome {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+    padding-bottom: -10px;
+    text-decoration: none;
+    margin-bottom: -10px;
+
+}
+
+.foto img {
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: -20px;
+    border-radius: 5px;
+}
+
+.btn-success {
+    color: #fff;
+    background: #40cd28;
+    border-color: #40cd28;
+}
+
+h2 {
+    display: block;
+    font-size: 30px;
+    border-bottom: 1px solid #333;
+}
+
+.categories {
+    margin-top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    float: left;
+    margin-left: -115px;
+    font-size: 19px;
+}
+
+.produtos {
+    width: 1000px;
+    float: right;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1160px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+}
+
+.col-esq {
+    float: left;
+    margin-top: 23px;
+    width: 51.72414%;
+}
+
+.imagem-tela {
+    max-width:100%;
+    height:auto;
+}
+
+#produtos:hover {
+    border: 1px solid #CCC;
+    border-radius: 1px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    height: 450px;
+    z-index: 90;
+    position: absolute;
+
+}
+
+.col-dir {
+    float: right;
+    margin-top: 23px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    width: 40.51724%;
+}
+
+.produto-nome {
+    font-size: 22px;
+    color: #141418;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    color: #141418;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.produto-descricao {
+    font-size: 22px;
+    color: #141418;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.inserir-tela {
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background: #1abc9c;
+    font-size: 23px;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #16a085;
+}
+
+.inserir-tela:hover {
+    background: #12735f;
+}
+
+.myFooter {
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+}
+
+.index {
+    margin-top: 200px;
+    margin-bottom: 220px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.inserir-sim {
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 9px;
+    box-sizing: border-box;
+    background-color: #cdcdcd;
+    color: #000000;
+    margin-bottom: 30px;
+
+}
+
+.etcetc {
+    margin-left: 200px;
+
+}
+
+.intern {
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form input {
+    font-family: 'Ubuntu', sans-serif;
+    background: #e9e9e9;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input#enviar {
+    font-family: 'Ubuntu', sans-serif;
+    background: #5382bc;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.registrar-btn {
+    font-family: 'Ubuntu', sans-serif;
+    background: #5382bc;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.div-forms {
+    border: 0.5px solid #e1e1e1;
+    width: 500px;
+    padding: 25px 25px 25px 25px;
+    margin: 0 auto;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100.5%;
+    height: 50px;
+    margin-left: -190px;
+    line-height: 50px;
+    background-color: #367d77;
+}
+

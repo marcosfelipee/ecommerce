@@ -1,0 +1,58 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin-top: -100px;
+    width: 100%;
+    background-color: #e6ecf0;
+    font-family: 'Roboto', sans-serif;
+}
+#itens {
+    width: 750px;
+    margin: 80px auto;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+    font-family: 'Roboto', sans-serif;
+    border-radius: 6px;
+    flex-direction: column;
+}
+#botao {
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background: #1abc9c;
+    font-size: 23px;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #16a085;
+    text-transform: uppercase;
+}
+#checkout {
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background: #f11023;
+    font-size: 23px;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #16a085;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+#etc {
+    color: #f11023;
+    margin-left: 550px;
+    margin-top: 250px;
+}
